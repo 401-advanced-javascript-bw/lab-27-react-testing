@@ -13,8 +13,4 @@ describe('<Counter/>', () => {
     button.simulate('click');
     expect(mountedCounter.state('count')).toEqual(1);
   });
-  // test('rendering follows snapshots', () => {
-  //   const snapshot = renderer.create(<Counter />).toJSON();
-  //   expect(snapshot).toMatchSnapshot();
-  // });
 });
