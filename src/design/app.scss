@@ -1,0 +1,54 @@
+@import './variables';
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: $background;
+
+  header {
+    font-family: $header-font;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 2em;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    height: 20em;
+    border-radius: 0.8em;
+    margin-bottom: 4em;
+  }
+
+  span {
+    font-family: $header-font;
+    font-size: 4em;
+  }
+
+  a {
+    font-family: $header-font;
+    font-size: 3em;
+    text-decoration: none;
+    width: 20%;
+    margin: auto;
+    border-radius: 0.5em;
+  }
+
+  a.down {
+    background: pink;
+  }
+
+  a.up {
+    background: rgb(163, 230, 235);
+  }
+
+  footer {
+    font-family: $font;
+    font-size: 1.5em;
+  }
+}
