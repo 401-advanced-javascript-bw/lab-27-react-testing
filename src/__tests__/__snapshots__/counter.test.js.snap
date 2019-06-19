@@ -5,11 +5,11 @@ exports[`<Counter/> rendering follows snapshots 1`] = `
   className="counter"
 >
   <a
-    className="down clicker"
-    href="#"
+    className="up clicker"
+    href="/#"
     onClick={[Function]}
   >
-    -
+    +
   </a>
   <span
     className="count "
@@ -17,11 +17,11 @@ exports[`<Counter/> rendering follows snapshots 1`] = `
     0
   </span>
   <a
-    className="up clicker"
-    href="#"
+    className="down clicker"
+    href="/#"
     onClick={[Function]}
   >
-    +
+    -
   </a>
 </section>
 `;
