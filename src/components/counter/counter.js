@@ -1,5 +1,8 @@
 import React from 'react';
 
+/**
+ * Component that handles clicks by incrementing the state when add button pressed and decrememnting when subtract button pressed.
+ */
 class Counter extends React.Component {
   constructor(props) {
     super(props);
@@ -26,6 +29,10 @@ class Counter extends React.Component {
     this.setState({ count, polarity });
   }
 
+  /**
+   * Render method renders counter and add and subtract buttons.
+   * @returns {*}
+   */
   render() {
     let classes = ['count', this.state.polarity].join(' ');
     return (

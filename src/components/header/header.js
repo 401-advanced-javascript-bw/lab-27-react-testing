@@ -1,6 +1,12 @@
 import React from 'react';
 
+/**
+ * component that displays the title of the app
+ */
 class Header extends React.Component {
+  /**
+   * renders "Counters R Fun"
+   */
   render() {
     return (
       <header>
