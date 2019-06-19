@@ -7,6 +7,7 @@
 ### Links and Resources
 
 - [submission PR](https://github.com/401-advanced-javascript-bw/lab-27-react-testing/pull/1)
+- [travis](https://www.travis-ci.com/401-advanced-javascript-bw/lab-27-react-testing)
 - [netlify](https://frosty-cray-139f2c.netlify.com/)
 - [aws s3](https://lab-27-react-deploy.s3.amazonaws.com/public/index.html)
 - [aws amplify](https://submissin.d3nrxtxu3uh77t.amplifyapp.com/)
